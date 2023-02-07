@@ -10,15 +10,15 @@ namespace RimGen.Lib
     {
         Shooting = 0,
         Melee,
-        Social,
-        Animals,
-        Medicine,
-        Cooking,
         Construction,
-        Growing,
         Mining,
-        Artistic,
+        Cooking,        
+        Growing,
+        Animals,
         Crafting,
+        Artistic,
+        Medicine,
+        Social,
         Research
     }
 }

@@ -66,36 +66,35 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(151, 65);
+            this.textBox1.Location = new System.Drawing.Point(151, 77);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(22, 20);
             this.textBox1.TabIndex = 0;
-            this.textBox1.Text = "10";
             this.textBox1.Click += new System.EventHandler(this.textBox_SelectAll);
             this.textBox1.TextChanged += new System.EventHandler(this.textBox_TextChanged);
             this.textBox1.Enter += new System.EventHandler(this.textBox_SelectAll);
             // 
             // label1
             // 
-            this.label1.Location = new System.Drawing.Point(73, 68);
+            this.label1.Location = new System.Drawing.Point(6, 80);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(55, 13);
+            this.label1.Size = new System.Drawing.Size(122, 13);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Стрельба";
+            this.label1.Text = "Дальний бой";
             this.label1.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // label2
             // 
-            this.label2.Location = new System.Drawing.Point(55, 94);
+            this.label2.Location = new System.Drawing.Point(6, 106);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(73, 13);
+            this.label2.Size = new System.Drawing.Size(122, 13);
             this.label2.TabIndex = 3;
             this.label2.Text = "Ближний бой";
             this.label2.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(151, 91);
+            this.textBox2.Location = new System.Drawing.Point(151, 103);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(22, 20);
             this.textBox2.TabIndex = 2;
@@ -105,16 +104,16 @@
             // 
             // label3
             // 
-            this.label3.Location = new System.Drawing.Point(74, 120);
+            this.label3.Location = new System.Drawing.Point(6, 132);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(54, 13);
+            this.label3.Size = new System.Drawing.Size(122, 13);
             this.label3.TabIndex = 5;
-            this.label3.Text = "Общение";
+            this.label3.Text = "Строительство";
             this.label3.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(151, 117);
+            this.textBox3.Location = new System.Drawing.Point(151, 129);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(22, 20);
             this.textBox3.TabIndex = 4;
@@ -124,16 +123,16 @@
             // 
             // label4
             // 
-            this.label4.Location = new System.Drawing.Point(34, 146);
+            this.label4.Location = new System.Drawing.Point(6, 158);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(94, 13);
+            this.label4.Size = new System.Drawing.Size(122, 13);
             this.label4.TabIndex = 7;
-            this.label4.Text = "Животноводство";
+            this.label4.Text = "Горное дело";
             this.label4.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(151, 143);
+            this.textBox4.Location = new System.Drawing.Point(151, 155);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(22, 20);
             this.textBox4.TabIndex = 6;
@@ -143,16 +142,16 @@
             // 
             // label5
             // 
-            this.label5.Location = new System.Drawing.Point(70, 172);
+            this.label5.Location = new System.Drawing.Point(6, 184);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(58, 13);
+            this.label5.Size = new System.Drawing.Size(122, 13);
             this.label5.TabIndex = 9;
-            this.label5.Text = "Медицина";
+            this.label5.Text = "Кулинария";
             this.label5.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // textBox5
             // 
-            this.textBox5.Location = new System.Drawing.Point(151, 169);
+            this.textBox5.Location = new System.Drawing.Point(151, 181);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(22, 20);
             this.textBox5.TabIndex = 8;
@@ -162,16 +161,16 @@
             // 
             // label6
             // 
-            this.label6.Location = new System.Drawing.Point(67, 198);
+            this.label6.Location = new System.Drawing.Point(6, 210);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(61, 13);
+            this.label6.Size = new System.Drawing.Size(122, 13);
             this.label6.TabIndex = 11;
-            this.label6.Text = "Кулинария";
+            this.label6.Text = "Растениеводство";
             this.label6.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // textBox6
             // 
-            this.textBox6.Location = new System.Drawing.Point(151, 195);
+            this.textBox6.Location = new System.Drawing.Point(151, 207);
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(22, 20);
             this.textBox6.TabIndex = 10;
@@ -181,16 +180,16 @@
             // 
             // label7
             // 
-            this.label7.Location = new System.Drawing.Point(45, 224);
+            this.label7.Location = new System.Drawing.Point(6, 236);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(83, 13);
+            this.label7.Size = new System.Drawing.Size(122, 13);
             this.label7.TabIndex = 13;
-            this.label7.Text = "Строительство";
+            this.label7.Text = "Животноводство";
             this.label7.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // textBox7
             // 
-            this.textBox7.Location = new System.Drawing.Point(151, 221);
+            this.textBox7.Location = new System.Drawing.Point(151, 233);
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(22, 20);
             this.textBox7.TabIndex = 12;
@@ -200,16 +199,16 @@
             // 
             // label8
             // 
-            this.label8.Location = new System.Drawing.Point(55, 250);
+            this.label8.Location = new System.Drawing.Point(6, 262);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(73, 13);
+            this.label8.Size = new System.Drawing.Size(122, 13);
             this.label8.TabIndex = 15;
-            this.label8.Text = "Фермерство";
+            this.label8.Text = "Ремесло";
             this.label8.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // textBox8
             // 
-            this.textBox8.Location = new System.Drawing.Point(151, 247);
+            this.textBox8.Location = new System.Drawing.Point(151, 259);
             this.textBox8.Name = "textBox8";
             this.textBox8.Size = new System.Drawing.Size(22, 20);
             this.textBox8.TabIndex = 14;
@@ -219,16 +218,16 @@
             // 
             // label9
             // 
-            this.label9.Location = new System.Drawing.Point(58, 276);
+            this.label9.Location = new System.Drawing.Point(6, 288);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(70, 13);
+            this.label9.Size = new System.Drawing.Size(122, 13);
             this.label9.TabIndex = 17;
-            this.label9.Text = "Горное дело";
+            this.label9.Text = "Искусство";
             this.label9.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // textBox9
             // 
-            this.textBox9.Location = new System.Drawing.Point(151, 273);
+            this.textBox9.Location = new System.Drawing.Point(151, 285);
             this.textBox9.Name = "textBox9";
             this.textBox9.Size = new System.Drawing.Size(22, 20);
             this.textBox9.TabIndex = 16;
@@ -238,16 +237,16 @@
             // 
             // label10
             // 
-            this.label10.Location = new System.Drawing.Point(67, 302);
+            this.label10.Location = new System.Drawing.Point(6, 314);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(61, 13);
+            this.label10.Size = new System.Drawing.Size(122, 13);
             this.label10.TabIndex = 19;
-            this.label10.Text = "Искусство";
+            this.label10.Text = "Медицина";
             this.label10.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // textBox10
             // 
-            this.textBox10.Location = new System.Drawing.Point(151, 299);
+            this.textBox10.Location = new System.Drawing.Point(151, 311);
             this.textBox10.Name = "textBox10";
             this.textBox10.Size = new System.Drawing.Size(22, 20);
             this.textBox10.TabIndex = 18;
@@ -257,16 +256,16 @@
             // 
             // label11
             // 
-            this.label11.Location = new System.Drawing.Point(76, 328);
+            this.label11.Location = new System.Drawing.Point(6, 340);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(52, 13);
+            this.label11.Size = new System.Drawing.Size(122, 13);
             this.label11.TabIndex = 21;
-            this.label11.Text = "Ремесло";
+            this.label11.Text = "Общение";
             this.label11.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // textBox11
             // 
-            this.textBox11.Location = new System.Drawing.Point(151, 325);
+            this.textBox11.Location = new System.Drawing.Point(151, 337);
             this.textBox11.Name = "textBox11";
             this.textBox11.Size = new System.Drawing.Size(22, 20);
             this.textBox11.TabIndex = 20;
@@ -276,16 +275,16 @@
             // 
             // label12
             // 
-            this.label12.Location = new System.Drawing.Point(47, 354);
+            this.label12.Location = new System.Drawing.Point(6, 366);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(81, 13);
+            this.label12.Size = new System.Drawing.Size(122, 13);
             this.label12.TabIndex = 23;
-            this.label12.Text = "Исследование";
+            this.label12.Text = "Умственный труд";
             this.label12.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // textBox12
             // 
-            this.textBox12.Location = new System.Drawing.Point(151, 351);
+            this.textBox12.Location = new System.Drawing.Point(151, 363);
             this.textBox12.Name = "textBox12";
             this.textBox12.Size = new System.Drawing.Size(22, 20);
             this.textBox12.TabIndex = 22;
@@ -341,16 +340,16 @@
             this.chkbScreen.AutoSize = true;
             this.chkbScreen.Location = new System.Drawing.Point(4, 56);
             this.chkbScreen.Name = "chkbScreen";
-            this.chkbScreen.Size = new System.Drawing.Size(60, 17);
+            this.chkbScreen.Size = new System.Drawing.Size(153, 17);
             this.chkbScreen.TabIndex = 29;
-            this.chkbScreen.Text = "Screen";
+            this.chkbScreen.Text = "Сохр. скрин когда нашел";
             this.chkbScreen.UseVisualStyleBackColor = true;
             this.chkbScreen.CheckedChanged += new System.EventHandler(this.chkbScreen_CheckedChanged);
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::RimGen.Properties.Resources.fire1;
-            this.pictureBox1.Location = new System.Drawing.Point(176, 43);
+            this.pictureBox1.Location = new System.Drawing.Point(176, 54);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(24, 24);
             this.pictureBox1.TabIndex = 42;
@@ -359,7 +358,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::RimGen.Properties.Resources.fire2;
-            this.pictureBox2.Location = new System.Drawing.Point(195, 43);
+            this.pictureBox2.Location = new System.Drawing.Point(195, 54);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(24, 24);
             this.pictureBox2.TabIndex = 43;
@@ -370,7 +369,7 @@
             this.chkbFire.AutoSize = true;
             this.chkbFire.Checked = true;
             this.chkbFire.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.chkbFire.Location = new System.Drawing.Point(190, 67);
+            this.chkbFire.Location = new System.Drawing.Point(190, 79);
             this.chkbFire.Name = "chkbFire";
             this.chkbFire.Size = new System.Drawing.Size(15, 14);
             this.chkbFire.TabIndex = 30;
@@ -419,7 +418,7 @@
             this.MinimizeBox = false;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "RimGen 1.1 ©ggDiam";
+            this.Text = "RimGen 1.2 ©ggDiam";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);

@@ -47,10 +47,10 @@ namespace RimGen.Lib
             ShowWindow(gameWindowHandle, ShowWindowEnum.Restore);
         }
 
-        public static void SendGenerateNew()
+        public static void SendGenerateNew(Point genBtnCenterPos)
         {
             //ShowWindow(gameWindowHandle, ShowWindowEnum.Restore);
-            Clicker.ClickOnPoint(gameWindowHandle, new Point(940, 280));
+            Clicker.ClickOnPoint(gameWindowHandle, genBtnCenterPos);
         }
 
         public static void SaveScreenshot()
@@ -64,18 +64,19 @@ namespace RimGen.Lib
 
         public static Bitmap GetScreenshot()
         {
-            var rect = new Rectangle();
-            GetWindowRect(gameWindowHandle, ref rect);
+            var bounds = new Rectangle();
+            GetWindowRect(gameWindowHandle, ref bounds);
 
-            var bmp = new Bitmap(rect.Width, rect.Height);
-            using (Graphics g = Graphics.FromImage(bmp))
+            var bitmap = new Bitmap(bounds.Width, bounds.Height);
+            using (Graphics g = Graphics.FromImage(bitmap))
             {
-                IntPtr hdc = g.GetHdc();
-                PrintWindow(gameWindowHandle, hdc, 0);
-                g.ReleaseHdc(hdc);
+                //IntPtr hdc = g.GetHdc();
+                //PrintWindow(gameWindowHandle, hdc, 0);
+                //g.ReleaseHdc(hdc);
+                g.CopyFromScreen(new Point(bounds.Left, bounds.Top), Point.Empty, bounds.Size);
             }
 
-            return bmp;
+            return bitmap;
         }
 
         private static IntPtr GetWindowByName(string wName)
