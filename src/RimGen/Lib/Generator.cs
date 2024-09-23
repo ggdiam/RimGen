@@ -23,6 +23,21 @@ namespace RimGen.Lib
         // навык 15 - 59x36
         // навык 16 - 94x36
         // навык 20 - 79x36
+        //const double oneSkillPointWidth = 5.75;
+
+
+        // 2560x1440 UI x1.5
+        // навык 0 - 1x36 px (ШхВ)
+        // навык 1 - 6x36
+        // навык 2 - 12x36
+        // навык 3 - 18x36
+        // навык 3 - 24x36
+        // навык 5 - 29x36
+        // навык 10 - 59x36
+        // навык 13 - 77x36
+        // навык 15 - 59x36
+        // навык 16 - 94x36
+        // навык 20 - 79x36
         const double oneSkillPointWidth = 5.75;
 
         //0 - 1px
@@ -45,10 +60,21 @@ namespace RimGen.Lib
         //const int fire2TopOffset = 13;
 
         // 3440x1440
+        //const double topAttrStepHeight = 40.5; // высота навыка плюс отступ до след.
+        //const int leftOffset = 1824; // смещение от левого края экрана до навыка
+        //const int firstAttrTopOffset = 404; // смещение от верха экрана до навыка
+        //static Point genBtnCenterPos = new Point(2270, 305);
+        //const int fire1LeftOffset = -19;//смещение 1 огонька влево
+        //const int fire1TopOffset = 14;
+        //const int fire2LeftOffset = -13;//смещение 2 огоньков влево
+        //const int fire2TopOffset = 20;
+
+
+        // 2560x1440
         const double topAttrStepHeight = 40.5; // высота навыка плюс отступ до след.
-        const int leftOffset = 1824; // смещение от левого края экрана до навыка
+        const int leftOffset = 1385; // смещение от левого края экрана до навыка
         const int firstAttrTopOffset = 404; // смещение от верха экрана до навыка
-        static Point genBtnCenterPos = new Point(2270, 305);
+        static Point genBtnCenterPos = new Point(1825, 305);
         const int fire1LeftOffset = -19;//смещение 1 огонька влево
         const int fire1TopOffset = 14;
         const int fire2LeftOffset = -13;//смещение 2 огоньков влево
